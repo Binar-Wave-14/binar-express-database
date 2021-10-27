@@ -5,7 +5,9 @@
     "database": "belajar_database",
     "host": "localhost",
     "dialect": "postgres",
-    "port": 12345
+    "port": 12345,
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "SequelizeData"
   },
   "test": {
     "username": "root",
